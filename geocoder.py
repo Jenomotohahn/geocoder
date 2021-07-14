@@ -28,6 +28,7 @@ def extract_lat_long_via_address(address_zip):
         lng = results["geometry"]["location"]["lng"]
         coordinates = [lat, lng]
     except:
+        print("error occurred, double check data file")
         pass
     return coordinates
 
