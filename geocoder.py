@@ -2,6 +2,9 @@ import requests
 import csv
 import time
 
+"""To use add in your own google api key. drop the two files python file.csv and newfile.csv into project folder. """
+
+
 # google API key
 GOOGLE_API_KEY = "blah blah blah"
 
